@@ -31,6 +31,7 @@ body {
     font-size: 11px;
     text-align: center;
     color: hsl(0, 0%, 100%);
+
 }
 
 .attribution a {
@@ -57,16 +58,11 @@ main header {
 article {
     background-color: hsl(0, 0%, 12%);
     max-width: 350px;
-    width: 90%;
+    width: 100%;
     padding: 2rem;
     border-radius: 15px;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.377);
-}
-
-section,
-nav {
-    text-align: center;
 }
 
 header img {
@@ -82,39 +78,39 @@ header h1 {
     font-weight: 600;
 }
 
-header h2 {
+header p {
     margin-top: 0.5rem;
     font-size: 1rem;
     color: hsl(75, 94%, 57%);
+    font-weight: 700;
 }
 
 header h1,
-header h2 {
+header p {
     line-height: 1.2;
 }
 
 blockquote {
     color: white;
-    font-size: 90%;
+    font-size: 98.8%;
     text-align: center;
     margin: 1.5rem 0 1rem;
     font-weight: 400;
 }
 
-
-nav a {
+ul a {
     display: block;
     background-color: hsl(0, 0%, 20%);
     padding: 10px;
     border-radius: 8px;
     color: hsl(0, 0%, 100%);
-    transition: background-color 0.5s, color 0.5s;
+    transition: background-color 0.5s,
+        color 0.5s;
     font-weight: 700;
     min-width: 150px;
 }
 
-
-nav ul {
+ul {
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -122,8 +118,12 @@ nav ul {
     max-width: 100%;
 }
 
-nav a:hover {
+ul a:hover {
     background-color: hsl(75, 94%, 57%);
     color: #000;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.attribution a:hover {
+    text-decoration: underline;
 }
